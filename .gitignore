@@ -1,5 +1,5 @@
 MIC_Control/MDK-ARM/RTE/
-MIC_Control/MDK-ARM/MIC-Control/
+MIC_Control/MDK-ARM/MIC_Control
 MIC_Control/MDK-ARM/.vscode/
 MIC_Control/MDK-ARM/.eide/
 MIC_Control/MDK-ARM/.cmsis/
