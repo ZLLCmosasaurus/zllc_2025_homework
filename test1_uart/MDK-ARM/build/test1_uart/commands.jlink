@@ -1,0 +1,6 @@
+r
+halt
+loadfile "c:\Users\23709\OneDrive\Desktop\stm32\test1_uart\MDK-ARM\build\test1_uart\test1_uart.hex"
+r
+go
+exit

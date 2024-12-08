@@ -1,9 +1,13 @@
-  # 忽略 Keil 工程编译生成的文件
-  *.bak
-  *.hex
-  *.bin
-  *.out
-  # 忽略 VSCode 配置文件夹
-  .vscode/
-
-
+test1_uart\MDK-ARM\.cmsis
+test1_uart\MDK-ARM\.eide
+test1_uart\MDK-ARM\.vscode
+test1_uart\MDK-ARM\build
+test1_uart\MDK-ARM\DebugConfig
+test1_uart\MDK-ARM\RTE
+test1_uart\MDK-ARM\test1_uart
+test1_uart\MDK-ARM\.clang-format
+test1_uart\MDK-ARM\.eide.usr.ctx.json
+test1_uart\MDK-ARM\EventRecorderStub.scvd
+test1_uart\MDK-ARM\JLinkLog.txt
+test1_uart\MDK-ARM\JLinkSettings.ini
+test1_uart\MDK-ARM\MDK-ARM.code-workspace

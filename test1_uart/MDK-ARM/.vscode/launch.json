@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "type": "cortex-debug",
+            "request": "launch",
+            "name": "test1_uart: JLINK",
+            "servertype": "jlink",
+            "interface": "swd",
+            "executable": "build/test1_uart/test1_uart.elf",
+            "runToEntryPoint": "main",
+            "device": "STM32F103C8"
+        }
+    ]
+}

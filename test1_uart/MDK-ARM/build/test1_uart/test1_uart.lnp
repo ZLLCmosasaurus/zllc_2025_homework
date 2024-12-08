@@ -1,0 +1,33 @@
+--cpu Cortex-M3 --scatter "c:/Users/23709/OneDrive/Desktop/stm32/test1_uart/MDK-ARM/build/test1_uart/test1_uart.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--list .\build\test1_uart\test1_uart.map
+.\build\test1_uart\.obj\__\Core\Src\dma.o
+.\build\test1_uart\.obj\__\Core\Src\gpio.o
+.\build\test1_uart\.obj\__\Core\Src\main.o
+.\build\test1_uart\.obj\__\Core\Src\stm32f1xx_hal_msp.o
+.\build\test1_uart\.obj\__\Core\Src\stm32f1xx_it.o
+.\build\test1_uart\.obj\__\Core\Src\system_stm32f1xx.o
+.\build\test1_uart\.obj\__\Core\Src\tim.o
+.\build\test1_uart\.obj\__\Core\Src\usart.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
+.\build\test1_uart\.obj\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
+.\build\test1_uart\.obj\__\encode\encode.o
+.\build\test1_uart\.obj\__\esp32\esp32.o
+.\build\test1_uart\.obj\__\esp32\omega.o
+.\build\test1_uart\.obj\__\gpu\gpu.o
+".\build\test1_uart\.obj\__\motor\linear velocity.o"
+.\build\test1_uart\.obj\__\motor\motor.o
+.\build\test1_uart\.obj\__\motor\setpwm.o
+.\build\test1_uart\.obj\__\pid\pid.o
+.\build\test1_uart\.obj\startup_stm32f103xb.o -o .\build\test1_uart\test1_uart.axf
