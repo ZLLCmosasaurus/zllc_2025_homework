@@ -1,0 +1,15 @@
+MIC_Control/MDK-ARM/RTE/
+MIC_Control/MDK-ARM/MIC_Control
+MIC_Control/MDK-ARM/.vscode/
+MIC_Control/MDK-ARM/.eide/
+MIC_Control/MDK-ARM/.cmsis/
+MIC_Control/MDK-ARM/DebugConfig/
+
+MIC_Control/MDK-ARM/.clang-format
+MIC_Control/MDK-ARM/JLinkLog.txt
+MIC_Control/MDK-ARM/JLinkSettings.ini
+MIC_Control/MDK-ARM/MIC_Control.uvguix.HLlll
+MIC_Control/MDK-ARM/MIC_Control.uvguix.HLlll.bak
+MIC_Control/MDK-ARM/.eide.usr.ctx.json
+MIC_Control/MDK-ARM/EventRecorderStub.scvd
+MIC_Control/MDK-ARM/MDK-ARM.code-workspace
