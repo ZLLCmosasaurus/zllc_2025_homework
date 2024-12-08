@@ -1,0 +1,25 @@
+
+
+OpenDocument="core_cm3.h", FilePath="/Users/z/Desktop/sync/Code/STM32/MIC/Drivers/CMSIS/Include/core_cm3.h", Line=1834
+OpenDocument="main.cpp", FilePath="/Users/z/Desktop/sync/Code/STM32/MIC/Core/Src/main.cpp", Line=92
+OpenDocument="stm32f1xx_it.c", FilePath="/Users/z/Desktop/sync/Code/STM32/MIC/Core/Src/stm32f1xx_it.c", Line=84
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=273, h=433, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=BOTTOM, x=1, y=0, w=784, h=391, FilterBarShown=0, TotalValueBarShown=1, ToolBarShown=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=509, h=433, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="1 ns / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="298;0", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="309;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="329;0"
+OpenWindow="Console", DockArea=BOTTOM, x=0, y=0, w=655, h=391, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[173;100;100;100;1460]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Size";"Type";"Access";"Scope";"Refresh"], ColWidths=[174;100;93;54;129;0;27;207]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;343]
+WatchedExpression="Data", RefreshRate=1, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="frame_received", RefreshRate=1, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="frame_header", RefreshRate=1, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="data1", RefreshRate=1, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="data2", RefreshRate=1, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="data3", RefreshRate=1, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="frame_footer", RefreshRate=1, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="encoder_count", RefreshRate=1, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="speed_rpm", RefreshRate=1, Window=Watched Data 1
