@@ -11,5 +11,5 @@ test1_uart/MDK-ARM/EventRecorderStub.scvd
 test1_uart/MDK-ARM/JLinkLog.txt
 test1_uart/MDK-ARM/JLinkSettings.ini
 test1_uart/MDK-ARM/MDK-ARM.code-workspaceus
-test1_uart\MDK-ARM\test1_uart.uvguix.23709
-test1_uart\MDK-ARM\MDK-ARM.code-workspace
+test1_uart/MDK-ARM/test1_uart.uvguix.23709
+test1_uart/MDK-ARM/MDK-ARM.code-workspace
