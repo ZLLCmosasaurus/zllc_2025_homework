@@ -1,0 +1,41 @@
+# 通用规则
+.DS_Store
+Thumbs.db
+*.o
+*.obj
+*.bin
+*.hex
+*.elf
+*.out
+*.log
+*.map
+*.d
+*.bak
+*.lst
+*.a
+.idea/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+*.iml
+out/
+.settings/
+.project
+.cproject
+.metadata/
+.ipch/
+*.launch
+
+# 构建目录
+build/
+Debug/
+Release/
+
+# Keil
+*.axf
+*.htm
+*.lnp
+*.crf
+*.plg
+Objects/
+Listings/
