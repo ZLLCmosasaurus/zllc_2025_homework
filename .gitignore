@@ -1,0 +1,9 @@
+  # 忽略 Keil 工程编译生成的文件
+  *.bak
+  *.hex
+  *.bin
+  *.out
+  # 忽略 VSCode 配置文件夹
+  .vscode/
+
+
