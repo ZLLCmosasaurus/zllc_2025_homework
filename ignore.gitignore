@@ -1,0 +1,60 @@
+
+# 忽略 .gitignore 文件本身
+/.gitignore
+ 
+# 忽略 Keil 工程编译生成的文件和文件夹
+*.bak
+*.hex
+*.bin
+*.out
+*.lst
+*.map
+*.dep
+*.d
+*.o
+*.obj
+*.lib
+*.crf
+*.opt
+*.apd
+*.uvprojx.bak  # Keil uVision 项目文件的备份
+Debug/        # Keil 生成的调试文件夹
+Release/      # Keil 生成的发布文件夹
+Objects/      # Keil 生成的对象文件夹（如果有的话）
+Listing/      # Keil 生成的列表文件夹（如果有的话）
+ 
+# 忽略 VSCode 配置文件夹和文件
+.vscode/
+*.code-workspace
+*.code-snippets
+ 
+# 忽略编译工具和 IDE 的临时文件
+*.tmp
+*.swp
+*.swo
+*.iax
+*.iaxx
+*.trace
+ 
+# 忽略操作系统生成的文件和文件夹（例如 Windows 的缩略图缓存）
+Thumbs.db
+.DS_Store
+ 
+# 忽略构建脚本生成的中间文件和输出文件
+build/
+dist/
+output/
+ 
+# 忽略日志文件
+*.log
+ 
+# 忽略其他常见的临时文件
+*.tmp
+*.swp
+*.~*
+*.#*
+*.old
+ 
+# 忽略特定于编译器的临时文件（例如 GCC 的 .o 文件）
+*.o
+*.dSYM/
