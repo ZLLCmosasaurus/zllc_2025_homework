@@ -1,0 +1,5 @@
+*.bak
+*.hex
+*.bin
+*.out
+.vscode/
