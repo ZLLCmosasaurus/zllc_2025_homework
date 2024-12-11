@@ -1,0 +1,8 @@
+#code built by keil (itself)
+*.bak
+*.hex
+*.bin
+*.out
+
+#code of vscode
+.vscode
