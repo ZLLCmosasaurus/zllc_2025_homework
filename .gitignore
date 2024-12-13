@@ -1,0 +1,15 @@
+# 忽略 Keil 工程编译生成的文件
+*.bak
+*.hex
+*.bin
+*.out
+JJHBPD1.2.0/MDK-ARM/DebugConfig
+JJHBPD1.2.0/MDK-ARM/JJHBPD
+JJHBPD1.2.0/MDK-ARM/RTE/_JJHBPD
+JJHBPD1.2.0/MDK-ARM/JJHBPD.uvguix.28042
+JJHBPD1.2.0/MDK-ARM/JJHBPD.uvguix.a
+JJHBPD1.2.0/MDK-ARM/EventRecorderStub.scvd
+JJHBPD1.2.0/MDK-ARM/JLinkLog.txt
+JJHBPD1.2.0/MDK-ARM/JLinkSettings.ini
+# 忽略 VSCode 配置文件夹
+.vscode/
