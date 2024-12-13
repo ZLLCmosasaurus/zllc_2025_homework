@@ -3,5 +3,13 @@
 *.hex
 *.bin
 *.out
+MDK-ARM/DebugConfig
+MDK-ARM/JJHBPD
+MDK-ARM/RTE/_JJHBPD
+MDK-ARM/JJHBPD.uvguix.28042
+MDK-ARM/JJHBPD.uvguix.a
+MDK-ARM/EventRecorderStub.scvd
+MDK-ARM/JLinkLog.txt
+MDK-ARM/JLinkSettings.ini
 # 忽略 VSCode 配置文件夹
 .vscode/
