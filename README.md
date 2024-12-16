@@ -65,7 +65,8 @@
   - 学习记录：提交不少于一篇的学习记录，记录学习过程中遇到的问题和解决方法（md文档）。 
   #### 2.2.3 学习`arm_none_eabi`的使用 （暂时与实验室无关，不要求掌握，有余力就去了解）
   > 学习 `arm_none_eabi` 编译环境的使用，使用 `gcc` 编译 `arm` 架构的代码,使用 `arm_none_eabi_gdb` 调试代码。（选做，不做要求）    
-  > 学习使用 `cubmx` 配置 `Makefile` 工程，使用 `make` 编译代码。（选做，不做要求）
+  > 学习使用 `cubmx` 配置 `Makefile` 工程，使用 `make` 编译代码。（选做，不做要求）   
+  > 感兴趣可以去实验室仓库下看最新的[M58-Dart](https://github.com/ZLLCmosasaurus/RMUC-2025/tree/M58-Dart)分支的代码
   
 
 
