@@ -2,7 +2,7 @@
 
 - #### 先添加源仓库地址到本地
 
-![添加upstream，拉取最新main更改](..\pictures\添加upstream，拉取最新main更改.jpg)
+![添加upstream，拉取最新main更改](..\pictures\1.jpg)
 
 - #### 获取mian分支的更新 cherry-pick
 
