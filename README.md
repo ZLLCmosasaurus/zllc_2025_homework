@@ -20,7 +20,7 @@
 
 ## 任务点
 ### 1. 学习git使用，学会使用git进行版本管理，学会使用github进行远程仓库管理，学会使用git进行团队协作。 
-> - [作业要求点这里](Home_Work/Home_Work_1.md)   
+> - [作业要求点这里](Home_Work/Home_Work_1.md)    
 > - [git教程点这里](sources/git.md)  
 
 ### 2.1 学习[实验室仓库](https://github.com/ZLLCmosasaurus/RMUC-2025)代码框架的基本使用
