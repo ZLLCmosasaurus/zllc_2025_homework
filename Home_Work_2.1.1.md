@@ -33,46 +33,27 @@ ACK 段：表示确认正常接收的段。
 drv_can.cpp
 /**
  * @brief 配置CAN的过滤器
- *
- * @param hcan CAN编号
- * @param Object_Para 筛选器编号0-27 | FIFOx | ID类型 | 帧类型
- * @param ID 验证码
- * @param Mask_ID 屏蔽码(0x3ff, 0x1fffffff)
  */
  void can_filter_mask_config(CAN_HandleTypeDef *hcan, uint8_t Object_Para, uint32_t ID, uint32_t Mask_ID);
  /**
  * @brief 初始化CAN总线
- *
- * @param hcan CAN编号
- * @param Callback_Function 处理回调函数
  */
  void CAN_Init(CAN_HandleTypeDef *hcan, CAN_Call_Back Callback_Function);
  /**
  * @brief 发送数据帧
- *
- * @param hcan CAN编号
- * @param ID ID
- * @param Data 被发送的数据指针
- * @param Length 长度
- * @return uint8_t 执行状态
  */
  uint8_t CAN_Send_Data(CAN_HandleTypeDef *hcan, uint16_t ID, uint8_t *Data, uint16_t Length);
  /**
  * @brief CAN的TIM定时器中断发送回调函数
- *
  */
  
  void TIM_CAN_PeriodElapsedCallback();
  /**
  * @brief HAL库CAN接收FIFO0中断
- *
- * @param hcan CAN编号
  */
  void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan);
  /**
  * @brief HAL库CAN接收FIFO1中断
- *
- * @param hcan CAN编号
  */
  void HAL_CAN_RxFifo1MsgPendingCallback(CAN_HandleTypeDef *hcan);
  
@@ -82,10 +63,6 @@ dvc_motor.cpp
 
 /**
  * @brief 分配CAN发送缓冲区
- *
- * @param hcan CAN编号
- * @param __CAN_ID CAN ID
- * @return uint8_t* 缓冲区指针
  */
  uint8_t *allocate_tx_data(CAN_HandleTypeDef *hcan, Enum_DJI_Motor_ID __CAN_ID)
  /**
