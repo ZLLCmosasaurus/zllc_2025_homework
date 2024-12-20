@@ -1,7 +1,6 @@
+__学习记录1__
 
-学习记录
-学习记录1
-can总线协议
+*can总线协议*
 1、帧的种类
 数据帧：节点发送的包含ID和数据的帧，用于发送单元向接收单元传送数据的帧。
 
@@ -57,8 +56,8 @@ drv_can.cpp
  */
  void HAL_CAN_RxFifo1MsgPendingCallback(CAN_HandleTypeDef *hcan);
  
-学习记录2
-dvc_motor.cpp
+__学习记录2__
+*dvc_motor.cpp*
 主要内容：
 
 /**
@@ -103,7 +102,7 @@ dvc_motor.cpp
  */
  void Class_DJI_Motor_C610::TIM_PID_PeriodElapsedCallback()
 
-pid算法
+*pid算法*
 P比例控制系数
 I积分控制系数
 D微分控制系数
