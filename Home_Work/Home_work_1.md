@@ -81,6 +81,6 @@ ps：至于如何创建账号，这里就不赘述了，大家可以自行搜索
   git push origin zhangsan
   ```
   ps:在github里面提交的时候记得选中你自己的分支。
-  ![图片描述](./pictures/pr-2.png)
+  ![图片描述](https://github.com/ZLLCmosasaurus/zllc_2025_homework/blob/main/pictures/pr-2.png?raw=true)
 
   提交 Pull Request 给我们源仓库的主分支，我们会进行审核，审核通过后你的分支就能被添加进来。
