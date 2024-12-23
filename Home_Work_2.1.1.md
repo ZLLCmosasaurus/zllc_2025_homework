@@ -1,6 +1,6 @@
 一、基础知识
 
-![8db19d28e28a9fcedd5c8a337075e7c9](.\pictures\8db19d28e28a9fcedd5c8a337075e7c9.png)
+![8db19d28e28a9fcedd5c8a337075e7c9](/pictures/8db19d28e28a9fcedd5c8a337075e7c9.png)
 
 
 
@@ -10,9 +10,9 @@
 
 
 
-![50bd85dfae923828a9e318503f330a9b](.\pictures\50bd85dfae923828a9e318503f330a9b.png)
+![50bd85dfae923828a9e318503f330a9b](/pictures/50bd85dfae923828a9e318503f330a9b.png)
 
-![QQ20241220-185031](.\pictures\QQ20241220-185031.png)
+![QQ20241220-185031](/pictures/QQ20241220-185031.png)
 
 波特率：1Mbps
 
@@ -24,7 +24,7 @@ PS:
 
 C620电调红灯常亮原因：7Pin线与电机端子接触不良
 
-![e688e756b17635ffcfc20538cefb7e5e](.\pictures\e688e756b17635ffcfc20538cefb7e5e.png)
+![e688e756b17635ffcfc20538cefb7e5e](/pictures/e688e756b17635ffcfc20538cefb7e5e.png)
 
 C板调试接口引脚：
 
@@ -110,7 +110,7 @@ d.交互层初始化
 
 三、PID调参
 
-![23c160b077b6284ac8da8d661e79dc04](.\pictures\23c160b077b6284ac8da8d661e79dc04.png)
+![23c160b077b6284ac8da8d661e79dc04](/pictures/23c160b077b6284ac8da8d661e79dc04.png)
 
 ​	K_P 比例系数
 
