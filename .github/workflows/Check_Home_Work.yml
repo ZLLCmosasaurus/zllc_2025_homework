@@ -1,0 +1,18 @@
+name: Auto Grade Homework
+
+on:
+  pull_request:
+    branches:
+      - hzy
+
+jobs:
+  trigger-grading:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trigger grading repository workflow 
+      run: |
+        curl -X POST \
+        -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+        -H "Accept: application/vnd.github.v3+json" \
+        https://api.github.com/repos/ZLLCmosasaurus/Check_Home_Work/dispatches \
+        -d '{"event_type":"grade_homework", "client_payload": {"source_repository": "${{ github.event.pull_request.head.repo.full_name }}", "source_branch": "${{ github.event.pull_request.head.ref }}", "target_repository": "${{ github.event.pull_request.base.repo.full_name }}", "target_branch": "${{ github.event.pull_request.base.ref }}"}}'
