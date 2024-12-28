@@ -90,7 +90,7 @@
 			yaw_test.output_test();
 	
 				统一打包发送缓冲区数据							
-			TIM_CAN_PeriodElapsedCallback（）
+			TIM_CAN_PeriodElapsedCallback()
 					  ||
 					  ||
 		CAN_Send_Data(&hcan1, 0x200, CAN1_0x200_Tx_Data, 8);
