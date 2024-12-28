@@ -2,8 +2,7 @@ name: Auto Grade Homework
 
 on:
   pull_request:
-    branches:
-      - hzy
+    branches: [hzy]
 
 jobs:
   trigger-grading:
