@@ -1,7 +1,7 @@
 # 裁判系统
 
 - ==一个全自动的电子判罚系统==
-- ![image](./Pictures/裁判系统 18.08.58.png)
+- ![image](./Pictures/裁判系统.png)
 - 串口通信
   - 波特率115200，8位数据位，1位停止位，无硬件流控，无校验位
   - ![image](./Pictures/zhen.png)
