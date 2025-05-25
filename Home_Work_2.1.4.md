@@ -15,7 +15,7 @@
 ## 2.反向器
 + 作用：将DBUS输出的电平翻转,供串口使用
 + 硬件电路：
-	![QQ20241231-170325](pictures/QQ20241231-170325.png)
+	![屏幕截图 2025-01-01 143207](pictures\屏幕截图 2025-01-01 143207.png)
 	    上图使用的是NPN三极管
 	a.当DBUS输入显性电平0时，基极B与发射极E的电压差为0，小于0.7V，三极管断开，
     VCC_3V3与UART3_RX相连，输出给UART3_RX的显性电平1
@@ -36,18 +36,18 @@
 +              ```
 	a.DR16_UART3_Callback();//遥控器
 		            ||
-        	            ||
+                	            ||
 	chariot.DR16.DR16_UART_RxCpltCallback(Buffer);
 					||
 					||
 	  //保存当前数据（n），用于判断遥控器是否在线和使用遥控器传出进行映射，以及触发拨码盘
 			 DR16_Data_Process();
 			 		||
-    		 		||
+        		 		||
       //判断及设置拨码盘状态
         Judge_Switch(&Data.Left_Switch, tmp_buffer->Switch_1, Pre_UART_Rx_Data.Switch_1);
       //判断及设置键鼠状态			
-    			Judge_Key();
+        			Judge_Key();
       //保留上一次数据（n-1）	
     memcpy(&Pre_UART_Rx_Data, UART_Manage_Object_1->Rx_Buffer, sizeof(Struct_DR16_UART_Data));	
     ```
